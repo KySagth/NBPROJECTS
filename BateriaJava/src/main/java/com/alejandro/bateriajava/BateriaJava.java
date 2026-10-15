@@ -242,13 +242,103 @@ public class BateriaJava {
         
         System.out.println("El producto " + productoej12 + " cuesta " + precioej12 + " euros y tenemos " + stockej12 + " unidades disponibles");
         
-        
-        System.out.println("=============================================");
 
         // Ejercicio 13
         
+        String marcaej13 = "BMW";
+        String modeloej13 = "X1 SDrive 18D";
+        int añoej13 = 2022;
+        double precioej13 = 34000.00;
+        double kilometrosej13 = 54000.00;
+        
+        System.out.println("=============================================");
+        System.out.println("                  COCHE                      ");
+        System.out.println("=============================================");
+        
+        System.out.println("Marca; " + marcaej13);
+        System.out.println("Modelo: " + modeloej13);
+        System.out.println("Año: " + añoej13);
+        System.out.println("Precio: " + precioej13);
+        System.out.println("Kilometros: " + kilometrosej13);
+        
+        System.out.println("=============================================");
+        
+        // Ejercicio 14
+        
+        int numero1ej14 = 20;
+        int numero2ej14 = 6;
+        
+        int suma = numero1ej14 + numero2ej14;
+        int resta = numero1ej14 - numero2ej14;
+        int multiplicacion = numero1ej14 * numero2ej14;
+        int division = numero1ej14 / numero2ej14;
+        int resto = numero1ej14 % numero2ej14;
+        
+        System.out.println("Suma: " + suma);
+        System.out.println("Resta: " + resta);
+        System.out.println("Multiplicacion: " + multiplicacion);
+        System.out.println("Division: " + division);
+        System.out.println("Resto: " + resto);
+        
+        System.out.println("=============================================");
+
+        
+        // Ejercicio 15
+        
+        int numero1ej15 = 540;
+        int numero2ej15 = 12;
+        
+        int sumaej15 = numero1ej15 + numero2ej15;
+        int restaej15 = numero1ej15 - numero2ej15;
+        int multiplicacionej15 = numero1ej15 * numero2ej15;
+        int divisionej15 = numero1ej15 / numero2ej15;
+        int restoej15 = numero1ej15 % numero2ej15;
         
         
+        System.out.println("=============================================");
+        System.out.println("                CALCULADORA                  ");
+        System.out.println("=============================================");
+        
+        
+        System.out.println("Numero 1: " + numero1ej15);
+        System.out.println("Numero 2: " + numero2ej15);
+        
+        System.out.println(); // esto imprime una línea en blanco
+        
+        System.out.println("Suma: " + sumaej15);
+        System.out.println("Resta: " + restaej15);
+        System.out.println("Multiplicacion: " + multiplicacionej15);
+        System.out.println("Division: " + divisionej15);
+        System.out.println("Resto: " + restoej15);
+        
+        System.out.println("=============================================");
+        
+        
+        // Ejercicio 16
+        
+        int numero1ej16 = 10;
+        int numero2ej16 = 5;
+        int numero3ej16 = 2;
+        
+        int sumaej16 = numero1ej16 + numero2ej16 + numero3ej16;
+        int multiplicacionej16 = numero1ej16 * numero2ej16 * numero3ej16;
+        int sumaymultiplicacionej16 = numero1ej16 + numero2ej16 * numero3ej16;
+        int sumayparentesisej16 = (numero1ej16 + numero2ej16) * numero3ej16;
+        
+        System.out.println("Numero 1: " + numero1ej16);
+        System.out.println("Numero 2: " + numero2ej16);
+        System.out.println("Numero 3: " + numero3ej16);
+        
+        System.out.println();
+        
+        System.out.println("Suma: " + sumaej16);
+        System.out.println("Multiplicacion: " + multiplicacionej16);
+        System.out.println("Suma y Multiplicacion: " + sumaymultiplicacionej16);
+        System.out.println("Suma con parentisis y multiplicacion: " + sumayparentesisej16);
+        
+        System.out.println("=============================================");
+        
+        // Ejercicio 17
         
         
         
