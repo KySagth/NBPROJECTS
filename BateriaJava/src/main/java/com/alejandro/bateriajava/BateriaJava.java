@@ -562,12 +562,55 @@ public class BateriaJava {
        
         // Ejercicio 34 PREGUNTAR A SALVA SI ESTA BIEN
         
-        int[] numerosej34 = new int[10];
+        int[] numerosej341 = new int[10];
+        int[] numerosej342 = new int[20];
+        int[] numerosej343 = new int[30];
+        int[] numerosej344 = new int[40];
+        int[] numerosej345 = new int[50];
         
-        System.out.println("Numeros: " + numerosej34.length);
+        System.out.println("Numeros: " + numerosej341.length);
+        System.out.println("Numeros: " + numerosej342.length);
+        System.out.println("Numeros: " + numerosej343.length);
+        System.out.println("Numeros: " + numerosej344.length);
+        System.out.println("Numeros: " + numerosej345.length);
+        
+        System.out.println("=============================================");
+        
+        // Ejercicio 35
+        
+        int[] numerosej35 = {10, 20, 30, 40, 50};
+        
+        System.out.println("Primer numero: " + numerosej35[0]);
+        System.out.println("Segundo numero: " + numerosej35[1]);
+        System.out.println("Tercer numero: " + numerosej35[2]);
+        System.out.println("Cuarto numero: " + numerosej35[3]);
+        System.out.println("Quinto numero: " + numerosej35[4]);
+        
+        System.out.println("=============================================");
         
         
+        // Ejercicio 36
         
+        int[] numerosej36 = {10, 20, 30, 40, 50};
+        
+        System.out.println("Primer numero: " + numerosej35[0] *10);
+        System.out.println("Segundo numero: " + numerosej35[1] *10);
+        System.out.println("Tercer numero: " + numerosej35[2] *10);
+        System.out.println("Cuarto numero: " + numerosej35[3] *10);
+        System.out.println("Quinto numero: " + numerosej35[4] *10);
+        
+        System.out.println("=============================================");
+        
+        
+        // Ejercicio 37
+        
+        String[] nombresej37 = {"Ana", "Juan", "Pedro", "Laura", "Carlos"};
+        
+        System.out.println("Primer alumno: " + nombresej37[0]);
+        System.out.println("Tercer numero: " + nombresej37[2]);
+        System.out.println("Ultimo alumno: " + nombresej37[4]);
+        
+        System.out.println("=============================================");
         
         
         
