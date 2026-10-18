@@ -522,6 +522,65 @@ public class BateriaJava {
         // Ejercicio 30
         
         int edadej30 = 25;
+        boolean rangoedadej30 = edadej30 >= 18 && edadej30 <= 65;
+        
+        System.out.println("¿Esta entre 18 y 65 años? " + rangoedadej30);
+        
+        System.out.println("=============================================");
+
+        
+        // Ejercicio 31
+        
+        
+        int precioej31 = 500;
+        boolean preciovalidoej31 = precioej31 > 0 && precioej31 < 1000;
+        
+        System.out.println("¿El preico es mayor que 0 y menor que 100?: " + preciovalidoej31);
+        
+        System.out.println("=============================================");
+        
+        // Ejercicio 32
+        
+        int edadej32 = 20;
+        int salarioej32 = 1500;
+        boolean edadsalarioej32 = edadej32 >= 18 && salarioej32 > 1000;
+        
+        System.out.println("¿Es la edad mayor o igual que 18 y el salario es mayor que 1000?: " + edadsalarioej32);
+        
+        System.out.println("=============================================");
+        
+        // Ejercicio 33
+        
+        int[] posicionesej33 = new int[5];
+        
+        System.out.println("Posiciones: " + posicionesej33.length);
+        /*
+        APUNTE PARA MI
+        .length es para mostrar la longitud del array, (como su propio significado dice, longitud)
+        y va sin parentesis ni nada, al contrario que pintln().
+        */
+       
+        // Ejercicio 34 PREGUNTAR A SALVA SI ESTA BIEN
+        
+        int[] numerosej34 = new int[10];
+        
+        System.out.println("Numeros: " + numerosej34.length);
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
