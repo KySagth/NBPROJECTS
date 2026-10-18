@@ -340,6 +340,192 @@ public class BateriaJava {
         
         // Ejercicio 17
         
+        int baseej17 = 10;
+        int alturaej17 = 5;
+        
+        int areaej17 = baseej17 * alturaej17;
+        
+        System.out.println("Base: " + baseej17);
+        System.out.println("Altura: " + alturaej17);
+        System.out.println("Area: " + areaej17);
+        
+        System.out.println("=============================================");
+
+        
+        // Ejercicio 18
+        
+        int baseej18 = 15;
+        int alturaej18 = 8;
+        
+        int perimetroej18 = 2 * (baseej18 + alturaej18);
+        
+        
+        System.out.println("Base: " + baseej18);
+        System.out.println("Altura: " + alturaej18);
+        System.out.println("Area: " + perimetroej18);
+        
+        
+        System.out.println("=============================================");
+
+        // Ejercicio 19 
+        
+        double radioej19 = 5;
+        double areaej19 = Math.PI * radioej19 * radioej19;
+        
+        System.out.println("Radio: " + radioej19);
+        System.out.println("Area: " + areaej19);
+        
+        System.out.println("=============================================");
+        
+        // Ejercicio 20
+        
+        double precioej20 = 100; 
+        double ivaej20 = 0.21;
+        double sumaprecioivaej20 = precioej20 * ivaej20; // Esto calcula la cantidad del IVA
+        double preciofinalej20 = precioej20 + sumaprecioivaej20; // Y esto lo suma para mostrar el precio final
+        // Esto lo he hecho suponiendo que es mas el 21% de IVA el precio final.
+        
+        
+        System.out.println("Precio: " + precioej20 + "€");
+        System.out.println("IVA: " + sumaprecioivaej20 + "€");
+        System.out.println("Precio Final: " + preciofinalej20 + "€");
+        
+        System.out.println("=============================================");
+        
+        // Ejercicio 21
+        
+        double precioej21 = 200; 
+        double ivaej21 = 0.15;
+        double precioivaej21 = precioej21 * ivaej21;
+        double preciofinalej21 = precioej21 - precioivaej21; 
+        
+        
+        System.out.println("Precio: " + precioej21 + "€");
+        System.out.println("Descuento: " + precioivaej21 + "€");
+        System.out.println("Precio Final: " + preciofinalej21 + "€");
+        
+        System.out.println("=============================================");
+        
+        
+        // Ejercicio 22
+        
+        double precioej22 = 500;
+        double descuentoej22 = 0.10;
+        double ivaej22 = 0.21;
+        double cantidaddescuentoej22 = precioej22 * descuentoej22;
+        double totaldescuentoej22 = precioej22 - cantidaddescuentoej22;
+        double totalmasivaej22 = totaldescuentoej22 * ivaej22;
+        double preciofinalej22 = totaldescuentoej22 + totalmasivaej22; 
+        
+        
+        System.out.println("Precio: " + precioej22 + "€");
+        System.out.println("Descuento: " + cantidaddescuentoej22 + "€");
+        System.out.println("Precio despues del descuento: " + totaldescuentoej22 + "€");
+        System.out.println("IVA: " + totalmasivaej22 + "€");
+        System.out.println("Precio Final: " + preciofinalej22 + "€");
+        
+        System.out.println("=============================================");
+        
+        
+        // Ejercicio 23
+        
+        int aej23 = 10;
+        int bej23 = 20;
+        
+        System.out.println(aej23 > bej23);
+        System.out.println(aej23 < bej23);
+        System.out.println(aej23 >= bej23);
+        System.out.println(aej23 <= bej23);
+        System.out.println(aej23 == bej23);
+        System.out.println(aej23 != bej23);
+        
+        System.out.println("=============================================");
+        
+        
+        // Ejercicio 24
+        
+        int edadej24 = 20;
+        boolean mayordeedadej24 = edadej24 >= 18;
+        
+        System.out.println("Edad: " + edadej24);
+        System.out.println("¿Es mayor de edad?: " + mayordeedadej24);
+        
+        System.out.println("=============================================");
+        
+        // Ejercicio 25  
+        
+        int precioej25 = 75;
+        boolean preciomayor50ej25 = precioej25 > 50;
+        boolean preciomenor100ej25 = precioej25 < 100;
+        boolean precioigual75ej25 = precioej25 == 75;
+        boolean preciodiferente20ej25 = precioej25 != 20;
+        boolean pruebaej25 = precioej25 > 76;
+        
+        System.out.println("Precio: " + precioej25);
+        
+        System.out.println();
+        
+        System.out.println("¿El precio es mayor que 50?: " + preciomayor50ej25);
+        System.out.println("¿El precio es meneor que 100?: " + preciomenor100ej25);
+        System.out.println("¿El precio es igual a 75?: " + precioigual75ej25);
+        System.out.println("¿El precio es diferente de 20?: " + preciodiferente20ej25);
+        
+        System.out.println("¿El precio es mayor que 76?: " + pruebaej25); // He hecho esta prueba por ver si cuando era false se ponia correctamente.
+        
+        System.out.println("=============================================");
+
+        // Ejercicio 26
+        
+        double notaej26 = 7.5;
+        boolean notamayor5ej26 = notaej26 > 5;
+        boolean notamenor5ej26 = notaej26 < 5;
+        boolean notaigual10ej26 = notaej26 == 10;
+        boolean notadiferente0ej26 = notaej26 != 0;
+        
+        System.out.println("Nota: " + notaej26);
+        
+        System.out.println();
+        
+        System.out.println("¿La nota es mayor que 5?: " + notamayor5ej26);
+        System.out.println("¿La nota es meneor que 5?: " + notamenor5ej26);
+        System.out.println("¿La nota es igual a 10?: " + notaigual10ej26);
+        System.out.println("¿La nota es diferente de 0?: " + notadiferente0ej26);
+        
+        System.out.println("=============================================");
+        
+        
+        // Ejercicio 27
+        
+        System.out.println(true && true);
+        System.out.println(true && false);
+        System.out.println(false && true);
+        System.out.println(false && false);
+        
+        System.out.println("=============================================");
+        
+        // Ejercicio 28
+        
+        System.out.println(true || true);
+        System.out.println(true || false);
+        System.out.println(false || true);
+        System.out.println(false || false);
+        
+        System.out.println("=============================================");
+        
+        // Ejercicio 29
+        
+        System.out.println(!true);
+        System.out.println(!false);
+        
+        System.out.println("=============================================");
+        
+        // Ejercicio 30
+        
+        int edadej30 = 25;
+        
+        
+        
+        
         
         
         
