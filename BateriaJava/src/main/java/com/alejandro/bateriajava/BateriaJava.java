@@ -560,19 +560,17 @@ public class BateriaJava {
         y va sin parentesis ni nada, al contrario que pintln().
         */
        
-        // Ejercicio 34 PREGUNTAR A SALVA SI ESTA BIEN
+        // Ejercicio 34 
         
-        int[] numerosej341 = new int[10];
-        int[] numerosej342 = new int[20];
-        int[] numerosej343 = new int[30];
-        int[] numerosej344 = new int[40];
-        int[] numerosej345 = new int[50];
+        int[] numerosej34 = {10, 20, 30, 40, 50};                   
+
         
-        System.out.println("Numeros: " + numerosej341.length);
-        System.out.println("Numeros: " + numerosej342.length);
-        System.out.println("Numeros: " + numerosej343.length);
-        System.out.println("Numeros: " + numerosej344.length);
-        System.out.println("Numeros: " + numerosej345.length);
+        System.out.println(numerosej34[0]);
+        System.out.println(numerosej34[1]);
+        System.out.println(numerosej34[2]);
+        System.out.println(numerosej34[3]);
+        System.out.println(numerosej34[4]);
+
         
         System.out.println("=============================================");
         
@@ -613,16 +611,78 @@ public class BateriaJava {
         System.out.println("=============================================");
         
         
+        // Ejercicio 38
+        
+        double[] notasej38 = {5.5, 7.0, 8.5, 4.5, 9.0};
+        
+        System.out.println(notasej38[0]);
+        System.out.println(notasej38[1]);
+        System.out.println(notasej38[2]);
+        System.out.println(notasej38[3]);
+        System.out.println(notasej38[4]);
+        
+        System.out.println("=============================================");
         
         
+        // Ejercicio 39
+        
+        double[] notasej39 = {5.5, 7.0, 8.5, 4.5, 9.0};
+        double medianotasej39 = (notasej38[0] + notasej38[1] + notasej38[2] + notasej38[3] + notasej38[4]) /5;
+
+        System.out.println("Nota 1: " + notasej38[0]);
+        System.out.println("Nota 2: " + notasej38[1]);
+        System.out.println("Nota 3: " + notasej38[2]);
+        System.out.println("Nota 4: " + notasej38[3]);
+        System.out.println("Nota 5: " + notasej38[4]);
+        System.out.println("Media: " + medianotasej39);
+        
+        System.out.println("=============================================");
         
         
+        // Ejercicio 40
+        
+        int[] numerosej40 = {10, 20, 30, 40, 50, 60};
+        
+        System.out.println(numerosej40.length);
+        
+        System.out.println("=============================================");
         
         
+        // Ejercicio 41
+        
+        int[] numerosej41 = {10, 20, 30, 40, 50};
+        
+        System.out.println(numerosej41.length - 1);
+        
+        System.out.println("=============================================");
         
         
+        // Ejercicio 42
         
+        String nombreej42 = "Alejandro";
+        String apellidosej42 = "Gonzalez, Pinto";
+        String cursoej42 = "Primero DAW";
+        String repetidorej42 = "No";
+        int edadej42 = 21;
+        double notaej42 = 8;
         
+        double[] notasej42 = {8.8, 6.4, 9.3, 4.9, 7.7};
+        double medianotasej42 = (notasej42[0] + notasej42[1] + notasej42[2] + notasej42[3] + notasej42[4]) /5;
+        
+        boolean booleanamediaej42 = medianotasej42 >= 5;
+        
+        System.out.println("Nombre: " + nombreej42);
+        System.out.println("Apellidos: " + apellidosej42);
+        System.out.println("Edad: " + edadej42);
+        System.out.println("Curso: " + cursoej42);
+        System.out.println("Nota: " + notaej42);
+        System.out.println("¿Repetidor?: " + repetidorej42);
+        
+        System.out.println();
+        
+        System.out.println("Media: " + medianotasej42 + " ¿Es mayor o igual que 5?: " + booleanamediaej42);
+        
+        System.out.println("=============================================");
         
         
         
