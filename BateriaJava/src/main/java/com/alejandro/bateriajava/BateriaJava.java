@@ -685,6 +685,287 @@ public class BateriaJava {
         System.out.println("=============================================");
         
         
+        // Ejercicio 43
+        
+        String marcaej43 = "Tesla";
+        String modeloej43 = "Model Y";
+        String electricoej43 = "Es electrico";
+        int añoej43 = 2022;
+        double precioej43 = 35000.00;
+        double kilometrosej43 = 54000.00;
+        
+        
+        double precioivaej43 = precioej43 * 1.21;
+        double preciodescuentoej43 = precioej43 * 0.90;
+        
+        boolean booleanamasej43 = precioej43 > 20000;
+        boolean booleanamenosej43 = kilometrosej43 < 100000;
+        boolean eselectricoej43 = true;
+        
+        System.out.println("Marca: " + marcaej43);
+        System.out.println("Modelo: " + modeloej43);
+        System.out.println("Año: " + añoej43);
+        System.out.println("Precio: " + precioej43);
+        System.out.println("Kilometros: " + kilometrosej43);
+        System.out.println(electricoej43);
+        
+        System.out.println();
+        
+        System.out.println("¿El coche cuesta mas de 20000€?: " + booleanamasej43);
+        System.out.println("¿Tiene menos de 100000 Kilometros?: " + booleanamenosej43);
+        System.out.println("¿Es electrico?: " + eselectricoej43);
+        
+        System.out.println("=============================================");
+        
+        
+        // Ejercicio 44
+        
+        String marcaej44 = "HP";
+        String modeloej44 = "Omnibook";
+        double precioej44 = 499.01;
+        String memoriaramej44 = "16GB";
+        int almacenamientoej44 = 256;
+        boolean portatilej44 = true;
+        
+        double[] precioordenadoresej44 = {468.98, 589.00, 470.00, 1299.99, 897.98};
+        double sumaej44 = precioordenadoresej44[0] + precioordenadoresej44[1] + precioordenadoresej44[2] + precioordenadoresej44[3] + precioordenadoresej44[4];
+        double mediaej44 = sumaej44 / precioordenadoresej44.length;
+
+        System.out.println("Marca: " + marcaej44);
+        System.out.println("Modelo: " + modeloej44);
+        System.out.println("RAM: " + memoriaramej44);
+        System.out.println("Almacenamiento: " + almacenamientoej44 + "GB");
+        System.out.println("Precio: " + precioej44 + "€");
+        System.out.println("Es portatil: " + portatilej44);
+        
+        System.out.println();
+        
+        System.out.println("Numero de precios: " + precioordenadoresej44.length);
+        System.out.println("Primer precio: " + precioordenadoresej44[0] + "€");
+        System.out.println("Ultimo precio: " + precioordenadoresej44[4] + "€");
+        System.out.println("Media de los precios: " + mediaej44 + "€");
+
+        System.out.println("=============================================");
+        
+        // Ejercicio 45
+
+        String nombretiendaej45 = "MediaMarkt";
+        String ciudadej45 = "Jerez";
+        String productoej45 = "Portatil";
+        String marcaej45 = "Lenovo";
+        double precioej45 = 600.00;
+        int stockej45 = 12;
+        boolean disponibleej45 = true;
+
+        double[] preciosej45 = {600.00, 450.50, 899.99, 150.00, 320.75};
+
+        double ivaej45 = 0.21;
+        double descuentoej45 = 0.10;
+
+        double precioconivaej45 = precioej45 + (precioej45 * ivaej45);
+        double cantidaddescuentoej45 = precioej45 * descuentoej45;
+        double preciodescuentoej45 = precioej45 - cantidaddescuentoej45;
+        double preciofinalej45 = preciodescuentoej45 + (preciodescuentoej45 * ivaej45);
+
+        double sumapreciosej45 = preciosej45[0] + preciosej45[1] + preciosej45[2] + preciosej45[3] + preciosej45[4];
+        double mediapreciosej45 = sumapreciosej45 / preciosej45.length;
+
+        System.out.println("Tienda: " + nombretiendaej45);
+        System.out.println("Ciudad: " + ciudadej45);
+        System.out.println("Producto: " + productoej45);
+        System.out.println("Marca: " + marcaej45);
+        System.out.println("Precio: " + precioej45 + "€");
+        System.out.println("Stock: " + stockej45 + " unidades");
+        System.out.println("Disponible: " + disponibleej45);
+
+        System.out.println();
+
+        System.out.println("Precio con IVA (21%): " + precioconivaej45 + "€");
+        System.out.println("Descuento (10%): " + cantidaddescuentoej45 + "€");
+        System.out.println("Precio con descuento: " + preciodescuentoej45 + "€");
+        System.out.println("Precio final (descuento + IVA): " + preciofinalej45 + "€");
+
+        System.out.println();
+
+        System.out.println("Media de los precios: " + mediapreciosej45 + "€");
+
+        System.out.println("=============================================");
+        
+        // Ejercicio 46  PREGUNTAR A SALVA SI HAY QUE CREAR UNA CLASE PARA ESTE EJERCICIO
+        
+        // public class Main {
+                // (Lo he puesto entre // para que me deje ejecutarlo aqui y no tener que crear otra clase nueva)
+            // public static void main(String[] args) {
+
+        // Juan es texto, asi que va entre comillas dobles.
+        String nombre = "Juan";
+
+        // edad es un int, no puede llevar comillas.
+        int edad = 20;
+
+        // los decimales se escriben con punto, no con coma.
+        double precio = 25.50;
+
+        // un boolean es true o false, sin comillas.
+        boolean activo = true;
+
+        // un char va entre comillas simples, no dobles.
+        char inicial = 'J';
+
+        System.out.println(nombre);
+        System.out.println(edad);
+        System.out.println(precio);
+        System.out.println(activo);
+        System.out.println(inicial);
+
+        System.out.println("=============================================");
+        
+        // Ejercicio 47
+        
+        //public class Main {
+
+            //public static void main(String[] args) {
+
+        int[] numeros = {10, 20, 30, 40, 50};
+
+        System.out.println(numeros[0]);
+        System.out.println(numeros[2]);
+
+        // numeros[5] no existe. El array tiene 5 posiciones, de la 0 a la 4.
+        // El ultimo elemento esta en la posicion 4.
+        System.out.println(numeros[4]);
+
+        // Ejercicio 48
+
+        // Prediccion: 15, 50, true, false
+
+        int aej48 = 10;
+        int bej48 = 5;
+
+        System.out.println(aej48 + bej48);
+        System.out.println(aej48 * bej48);
+        System.out.println(aej48 > bej48);
+        System.out.println(aej48 == bej48);
+
+        System.out.println("=============================================");
+
+        // Ejercicio 49 
+
+        // Prediccion: true, true, true
+
+        int edadej49 = 20;
+
+        boolean mayorEdadej49 = edadej49 >= 18;
+        boolean menorDe30ej49 = edadej49 < 30;
+        boolean resultadoej49 = mayorEdadej49 && menorDe30ej49;
+
+        System.out.println(mayorEdadej49);
+        System.out.println(menorDe30ej49);
+        System.out.println(resultadoej49);
+
+        System.out.println("=============================================");
+
+        // Ejercicio 50
+
+        String nombreej51 = "Pala Paquito Navarro";
+        String marcaej51 = "Bullpadel";
+        String categoriaej51 = "Palas de padel";
+        double precioej51 = 300.00;
+        int stockej51 = 8;
+        double descuentoej51 = 0.10;
+        double ivaej51 = 0.21;
+        boolean disponibleej51 = true;
+
+        double importedescuentoej51 = precioej51 * descuentoej51;
+        double preciodescuentoej51 = precioej51 - importedescuentoej51;
+        double importeivaej51 = preciodescuentoej51 * ivaej51;
+        double preciofinalej51 = preciodescuentoej51 + importeivaej51;
+
+        System.out.println("Producto: " + nombreej51);
+        System.out.println("Marca: " + marcaej51);
+        System.out.println("Categoria: " + categoriaej51);
+        System.out.println("Precio: " + precioej51 + "€");
+        System.out.println("Stock: " + stockej51 + " unidades");
+        System.out.println("Descuento: " + descuentoej51 * 100);
+        System.out.println("IVA: " + ivaej51 * 100);
+        System.out.println("Disponible: " + disponibleej51);
+
+        System.out.println();
+
+        System.out.println("Importe del descuento: " + importedescuentoej51 + "€");
+        System.out.println("Precio despues del descuento: " + preciodescuentoej51 + "€");
+        System.out.println("Importe del IVA: " + importeivaej51 + "€");
+        System.out.println("Precio final con IVA: " + preciofinalej51 + "€");
+
+        System.out.println("=============================================");
+        
+        
+        // Ejercicio 52
+
+        String nombreej52 = "Grand Theft Auto VI";
+        String generoej52 = "Accion y aventura";
+        double precioej52 = 79.99;
+        int edadrecomendadaej52 = 18;
+        double valoracionej52 = 9.0;
+        boolean disponibleej52 = false;
+
+        double[] valoracionesej52 = {9.0, 8.5, 7.5, 9.5, 8.0};
+
+        double sumavaloracionesej52 = valoracionesej52[0] + valoracionesej52[1] + valoracionesej52[2] + valoracionesej52[3] + valoracionesej52[4];
+        double mediavaloracionesej52 = sumavaloracionesej52 / valoracionesej52.length;
+
+        boolean mediasuperior7ej52 = mediavaloracionesej52 > 7;
+        boolean precioinferior50ej52 = precioej52 < 50;
+        boolean videojuegodisponibleej52 = disponibleej52;
+
+        System.out.println("Videojuego: " + nombreej52);
+        System.out.println("Genero: " + generoej52);
+        System.out.println("Precio: " + precioej52 + "€");
+        System.out.println("Edad recomendada: +" + edadrecomendadaej52);
+        System.out.println("Valoracion: " + valoracionej52);
+        System.out.println("Disponible: " + disponibleej52);
+
+        System.out.println();
+
+        System.out.println("Numero de valoraciones: " + valoracionesej52.length);
+        System.out.println("Media de las valoraciones: " + mediavaloracionesej52);
+
+        System.out.println();
+
+        System.out.println("¿La valoracion media es superior a 7?: " + mediasuperior7ej52);
+        System.out.println("¿El precio es inferior a 50€?: " + precioinferior50ej52);
+        System.out.println("¿El videojuego esta disponible?: " + videojuegodisponibleej52);
+
+        System.out.println("=============================================");
+        
+        // Ejercicio 53
+
+        String tituloej53 = "Creed II";
+        String directorej53 = "Steven Caple Jr.";
+        int añoej53 = 2018;
+        int duracionej53 = 130;
+        double precioalquilerej53 = 3.99;
+        double valoracionej53 = 7.0;
+        boolean disponibleej53 = true;
+
+        System.out.println("================================");
+        System.out.println("          PELICULA              ");
+        System.out.println("================================");
+
+        System.out.println();
+
+        System.out.println("Titulo: " + tituloej53);
+        System.out.println("Director: " + directorej53);
+        System.out.println("Año: " + añoej53);
+        System.out.println("Duracion: " + duracionej53 + " minutos");
+        System.out.println("Precio: " + precioalquilerej53 + "€");
+        System.out.println("Valoracion: " + valoracionej53);
+        System.out.println("Disponible: " + disponibleej53);
+
+        System.out.println();
+
+        System.out.println("================================");
+        
         
         
         
